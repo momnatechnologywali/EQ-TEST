@@ -1,0 +1,84 @@
+-- Insert 10 professional EQ questions covering key areas.
+-- Each question has 4 options with scores 1-4 (higher = better EQ response).
+ 
+INSERT INTO questions (question_text, category) VALUES
+('When you feel overwhelmed by emotions at work, what do you do?', 'self_management'),
+('How often do you recognize your own emotional triggers?', 'self_awareness'),
+('In a conflict with a friend, how do you respond?', 'relationship_management'),
+('How well can you sense when someone is upset without them saying it?', 'social_awareness'),
+('When receiving criticism, how do you handle it?', 'self_management'),
+('How do you motivate yourself during tough times?', 'self_awareness'),
+('In team settings, how do you build rapport with others?', 'relationship_management'),
+('How empathetic are you towards colleagues'' struggles?', 'social_awareness'),
+('Do you adapt your communication style based on others'' emotions?', 'relationship_management'),
+('How do you regulate stress in high-pressure situations?', 'self_management');
+ 
+-- Options for question 1
+INSERT INTO options (question_id, option_text, score) VALUES
+(1, 'Ignore it and push through.', 2),
+(1, 'Lash out or blame others.', 1),
+(1, 'Take a break and reflect.', 3),
+(1, 'Discuss with a trusted person.', 4);
+ 
+-- Options for question 2
+INSERT INTO options (question_id, option_text, score) VALUES
+(2, 'Rarely, I react without thinking.', 1),
+(2, 'Sometimes, but not consistently.', 2),
+(2, 'Often, I journal or reflect.', 3),
+(2, 'Always, I''m very self-aware.', 4);
+ 
+-- Options for question 3
+INSERT INTO options (question_id, option_text, score) VALUES
+(3, 'Avoid the issue entirely.', 1),
+(3, 'Argue to prove I''m right.', 2),
+(3, 'Listen and find common ground.', 3),
+(3, 'Empathize and collaborate on a solution.', 4);
+ 
+-- Options for question 4
+INSERT INTO options (question_id, option_text, score) VALUES
+(4, 'Not at all, I miss cues.', 1),
+(4, 'Occasionally notice.', 2),
+(4, 'Usually pick up on body language.', 3),
+(4, 'Highly intuitive about emotions.', 4);
+ 
+-- Options for question 5
+INSERT INTO options (question_id, option_text, score) VALUES
+(5, 'Get defensive and argue.', 1),
+(5, 'Ignore it.', 2),
+(5, 'Reflect on it later.', 3),
+(5, 'Thank them and learn from it.', 4);
+ 
+-- Options for question 6
+INSERT INTO options (question_id, option_text, score) VALUES
+(6, 'Give up easily.', 1),
+(6, 'Push harder without rest.', 2),
+(6, 'Set small goals.', 3),
+(6, 'Seek inspiration and persist mindfully.', 4);
+ 
+-- Options for question 7
+INSERT INTO options (question_id, option_text, score) VALUES
+(7, 'Keep to myself.', 1),
+(7, 'Talk only about work.', 2),
+(7, 'Share interests.', 3),
+(7, 'Actively listen and show empathy.', 4);
+ 
+-- Options for question 8
+INSERT INTO options (question_id, option_text, score) VALUES
+(8, 'Dismiss them as weak.', 1),
+(8, 'Acknowledge but don''t help.', 2),
+(8, 'Offer support occasionally.', 3),
+(8, 'Always provide emotional support.', 4);
+ 
+-- Options for question 9
+INSERT INTO options (question_id, option_text, score) VALUES
+(9, 'No, I stick to my style.', 1),
+(9, 'Sometimes adjust.', 2),
+(9, 'Often tailor my approach.', 3),
+(9, 'Always adapt to emotional context.', 4);
+ 
+-- Options for question 10
+INSERT INTO options (question_id, option_text, score) VALUES
+(10, 'Panic or freeze.', 1),
+(10, 'Suppress it.', 2),
+(10, 'Breathe and prioritize.', 3),
+(10, 'Use techniques like mindfulness.', 4);
